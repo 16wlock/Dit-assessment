@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 0 auto;
+}
+
+li {
+  float: center;
+  text-align: center;
+  display: inline;
+  padding: 80px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  background-color: blue;
+  color: white;
+}
+
+h1 {
+  font-size: 120px;
+  text-align: center;
+  padding: 60px;
+}
+
+p {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+   position: fixed;
+   padding: 50px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
