@@ -1,15 +1,51 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Manjari', sans-serif;
+}
+.homebackground {
+  background-image: url("images/freerider-498473_1920.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
+.coronetbackground {
+  background-image: url("images/coronet.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.remarksbackground {
+  background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.2), rgba(222, 222, 222, 0.2)),
+  url("images/remarkables.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardronabackground {
+  background-image: linear-gradient(to bottom, rgba(222, 222, 222, 0.3), rgba(222, 222, 222, 0.3)),
+  url("images/cardrona.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
   text-align: center;
   padding: 0 auto;
+  font-size: 30px;
+
 }
 
 li {
@@ -21,7 +57,7 @@ li {
 
 li a {
   display: inline-block;
-  color: white;
+  color: black;
   text-decoration: none;
   text-align: center;
 }
@@ -31,7 +67,7 @@ ul {
   margin: 0 auto;
   padding: 50px;
   overflow: hidden;
-  background-color: blue;
+  background-color: #b0b0b0;
   color: white;
 }
 
@@ -41,18 +77,84 @@ h1 {
   padding: 60px;
 }
 
+.indexpara {
+  background-color: rgba(176, 176, 176);
+}
+
+.coronetpara {
+  background-color: rgba(20, 130, 255);
+}
+
+.remarkspara {
+  background-color: rgba(28, 191, 19);
+}
+
+.cardronapara {
+  background-color: rgba(255, 81, 46);
+}
 p {
   text-align: center;
-  padding-top: 50px;
+  font-size: 20px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
-.footer {
-   position: fixed;
-   padding: 30px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: white;
-   text-align: center;
+footer {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b0b0b0;
+  color: black;
+  text-align: center;
+}
+
+.coronet {
+  background-color: #1482ff;
+}
+
+.coronetfooter {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1482ff;
+  color: black;
+  text-align: center;
+}
+
+.remarks {
+  background-color: #1cbf13;
+}
+
+.remarksfooter {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1cbf13;
+  color: black;
+  text-align: center;
+}
+
+.cardrona {
+  background-color: #ff512e;
+}
+
+.cardronafooter {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff512e;
+  color: black;
+  text-align: center;
+}
