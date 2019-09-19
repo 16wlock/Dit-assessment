@@ -65,6 +65,15 @@ a {
   padding: 30px;
 }
 
+.passpurchase {
+  padding: 0px;
+}
+
+.passpurchase:hover {
+  background-color: transparent;
+  color: black;
+}
+
 nav {
   text-align: center;
   padding: 0 auto;
